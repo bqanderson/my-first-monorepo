@@ -1,3 +1,10 @@
+import Todo from './components/Todo';
+
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return (
+  <section>
+    <h1>{props.name} is mounted!</h1>
+    <Todo />
+  </section>
+  );
 }
